@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background-image: url(images/blrbg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: darkblue;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 400px;
+  float: none;
+  height: 70px;
+}
+
+ul {
+  float: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: dimgray;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.5 ease-in-out;
+}
+
+ul li a:hover {
+  color: darkblue;
+}
+
+img {
+  border-width: 5px;
+  border-radius: 25px;
+  border-style: dashed;
+  border-color: darkblue;
+}
+
+div img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid darkblue;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+
+div img:hover {
+  filter: opacity(1000);
+  transform: scale(1.03);
+}
